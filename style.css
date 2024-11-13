@@ -23,6 +23,16 @@ body {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-b {
+  display: flex;
+}
+
 @media (max-width: 600px) {
   header svg {
     display: none;
